@@ -1,4 +1,5 @@
 # Clothing brand Landing Page
+https://vimla01.github.io/Product-site/
 
 This is a simple landing page I created for a clothing brand. It’s built using **HTML, CSS, and a little JavaScript**. The page is designed to showcase the brand’s style and products in a clean and appealing way.  
 
