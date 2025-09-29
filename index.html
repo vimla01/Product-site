@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Trufit – Premium Beverages</title>
+  <meta name="description" content="Trufit – Premium zero-calorie wellness beverages. Smooth gradients, curved sections, and product showcases. Pure HTML, CSS, and basic JS." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+  <nav class="nav">
+    <!-- Group logo + links together -->
+    <div class="left-group">
+      <div class="logo" aria-label="Trufit">
+        <div class="logo-mark" aria-hidden="true"></div>
+        Trufit <span>®</span>
+      </div>
+
+      <ul class="main-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#men">Men</a></li>
+        <li><a href="#women">Women</a></li>
+        <li><a href="#help">Help</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+
+   <div class="right-nav">
+  <div class="btn-mix">
+    <a class="btn btn-yellow" href="#login">Login / Sign Up</a>
+  </div>
+</div>
+
+</div>
+
+    <!-- Mobile menu button -->
+    <button class="menu-btn" aria-label="Open Menu">☰</button>
+  </nav>
+
+  <div class="mobile-nav" id="mnav">
+    <a href="#home">Home</a>
+    <a href="#men">Men</a>
+    <a href="#women">Women</a>
+    <a href="#help">Help</a>
+    <a href="#contact">Contact</a>
+    <a href="#login">Login</a>
+    <a href="#signup">Sign Up</a>
+  </div>
+</header>
+
+
+
+  <!-- Hero -->
+  <section id="home" class="hero">
+    <div class="hero-bg" aria-hidden="true"></div>
+
+    <div class="hero-wrap container">
+      <div class="content reveal">
+        <div class="overline">Casual / Formal / Aesthetic</div>
+        <h1 class="title">Step into <em>Style</em> with <em>Trufit</em> Beverages</h1>
+        <p class="lead">Comfortable, versatile, and thoughtfully designed. 
+          Trufit blends modern aesthetics with premium quality—no compromise on style or comfort.</p>
+        <div class="hero-cta">
+          <a class="btn" href="#products">Shop Products</a>
+          <a class="btn outline" href="#contact">Contact Us</a>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal" aria-label="Product cans">
+        <div class="cans">
+            <img alt="Trufit Sunset can" src="pt1.png" />
+            
+        </div>
+        <div class="bubbles" aria-hidden="true"></div>
+      </div>
+    </div>
+
+    <!-- Curved divider bottom -->
+    <svg class="wave-bottom" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true">
+      <path fill="#ffffff" d="M0,64L48,69.3C96,75,192,85,288,85.3C384,85,480,75,576,58.7C672,43,768,21,864,26.7C960,32,1056,64,1152,69.3C1248,75,1344,53,1392,42.7L1440,32L1440,120L1392,120C1344,120,1248,120,1152,120C1056,120,960,120,864,120C768,120,672,120,576,120C480,120,384,120,288,120C192,120,96,120,48,120L0,120Z"/>
+    </svg>
+  </section>
+
+  
+ 
+<section class="products" id="products">
+  <div class="container">
+    <h2 style="font-family:'Playfair Display',serif;font-size:2rem;margin-bottom:18px">
+      Our Products
+    </h2>
+
+    <div class="slider-wrapper">
+      <button class="slider-btn prev">&#10094;</button>
+      
+      <div class="product-slider">
+        <div class="pill reveal">
+          <img src="p3.png" alt="Classy & Confident" />
+          <h3>Classy & Confident</h3>
+        </div>
+        <div class="pill reveal">
+          <img src="p4.png" alt="Casual Cool" />
+          <h3>Casual Cool</h3>
+        </div>
+        <div class="pill reveal">
+          <img src="p5.png" alt="Dreamy Styles" />
+          <h3>Dreamy Styles</h3>
+        </div>
+        <div class="pill reveal">
+          <img src="p6.png" alt="Modern Classic" />
+          <h3d="M0,32L48,26.7C96,21,192,11,288,21.3C384,32,480,64,576,85.3C672,107,768,117,864,106.7C960,96,1056,64,1152,53.3C1248,43,1344,53,1392,58.7L1440,64L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"/>>Modern Classic</h3>
+        </div>
+        <div class="pill reveal">
+          <img src="p7.png" alt="Modern Classic" />
+          <h3>Shoes </h3>
+        </div>
+        <div class="pill reveal">
+          <img src="p8.png" alt="Modern Classic" />
+          <h3>Heels</h3>
+        </div>
+        <div class="pill reveal">
+          <img src="p9.png" alt="Modern Classic" />
+          <h3>Accessories</h3>
+        </div>
+        <div class="pill reveal">
+          <img src="p10.png" alt="Modern Classic" />
+          <h3>Pants</h3>
+        </div>
+        <div class="pill reveal">
+          <img src="p11.png" alt="Modern Classic" />
+          <h3>Hoodies</h3>
+        </div>
+      
+        <!-- Add as many pills as you want -->
+      </div>
+      
+      <button class="slider-btn next">&#10095;</button>
+    </div>
+  </div>
+</section>
+
+
+
+  <!-- About -->
+  <section class="about">
+    <div class="container grid">
+      <div class="about-card reveal">
+        <h2 style="font-family:'Playfair Display',serif;font-size:2rem;margin-bottom:8px">About Us</h2>
+        <p class="muted">At Trufit, we believe clothing should do more than just cover—it should empower and inspire confidence.
+          Every piece we create blends style, comfort, and quality, designed for modern, active lifestyles.
+          We focus on versatility and durability, so you can look good and feel great wherever life takes you.
+          With Trufit, it’s not just fashion—it’s expressing your true self, every day.</p>
+        <a class="btn" href="#contact" style="margin-top:14px">Become a Retailer</a>
+      </div>
+      <div class="reveal">
+        <img alt="Assorted Trufit cans on pedestal" src="t2.png" style="border-radius:22px;box-shadow:var(--shadow)"/>
+      </div>
+    </div>
+    <svg class="wave-bottom" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true">
+      <path fill="#ffffff" d="M0,32L48,26.7C96,21,192,11,288,21.3C384,32,480,64,576,85.3C672,107,768,117,864,106.7C960,96,1056,64,1152,53.3C1248,43,1344,53,1392,58.7L1440,64L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"/>
+    </svg>
+    
+    
+  </section>
+s
+
+   <!-- Features -->
+  <section class="features container" id="lab">
+    <h2 style="font-family:'Playfair Display',serif;font-size:2rem">Why Trufit</h2>
+    <p class="muted" style="margin-top:6px">Quality you can trust. Each batch is tested and transparently reported.</p>
+    <div class="items">
+      <div class="feature reveal">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l3 7h7l-5.5 4 2 7-6.5-4.5L5 20l2-7L2 9h7l3-7z"/></svg>
+        <h4>Ultimate Comfort</h4>
+        <p class="muted">Soft, breathable fabrics designed for all-day wear.</p>
+      </div>
+      <div class="feature reveal">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10a8 8 0 10-16 0c0 6 8 10 8 10z"/></svg>
+        <h4>True Style</h4>
+        <p class="muted">Modern, versatile designs that fit every occasion.</p>
+      </div>
+      <div class="feature reveal">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
+        <h4>Premium Quality</h4>
+        <p class="muted">Durable materials and flawless finishes, every time.</p>
+      </div>
+      <div class="feature reveal">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M8 12h8"/></svg>
+        <h4>Eco-Conscious</h4>
+        <p class="muted">Sustainably made, because looking good shouldn’t cost the planet.</p>
+      </div>
+    </div>
+    
+  </section>
+
+  <!-- Contact -->
+  <section class="contact" id="contact">
+    <div class="container grid">
+      <div class="reveal">
+        <h2 style="font-family:'Playfair Display',serif;font-size:2rem">Contact Us</h2>
+        <p class="muted" style="color:#d0efe6;margin:6px 0 14px">Questions, feedback, or wholesale? We’ll get back within 24 hours.</p>
+        <form id="contactForm">
+          <input required type="text" name="name" placeholder="Your Name"/>
+          <input required type="email" name="email" placeholder="Email"/>
+          <textarea required name="message" placeholder="Your Message"></textarea>
+          <div style="display:flex;gap:10px;align-items:center">
+            <button class="btn" type="submit">Send Message</button>
+            <small style="opacity:.8">or mail us: hello@trufit.example</small>
+            
+          </div>
+        </form>
+      </div>
+      <div class="reveal">
+        <img alt="Three cans on podium" src="t1.png" style="border-radius:22px;box-shadow:0 18px 45px rgba(0,0,0,.3)"/>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="wrap"> ALL RIGHT RESERVED - © 2025 TruFit. </div>
+  </footer>
+
+  <script src="script.js"></script>
+
+  
+</body>
+</html>
